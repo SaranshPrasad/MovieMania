@@ -78,11 +78,7 @@ const Header = () => {
               ))}
             </select>
           )}
-<<<<<<< HEAD
-        <button className="mx-2 bg-red-800 p-2 text-white rounded-md" onClick={handleGptSearchClick}>{showGptSearch ? "Homepage" : "GPT Search"}</button>
-=======
         <button className="mx-2 bg-red-800 p-2 text-white rounded-md" onClick={handleGptSearchClick}>{showGptSearch ? "Homepage" : "Movie Finder"}</button>
->>>>>>> 2ee4fc4 (Final Added Movie Recommendation Model)
           <img
             src={user?.photoURL}
             alt="userImage"
