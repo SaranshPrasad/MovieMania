@@ -20,8 +20,18 @@ const movieSlice = createSlice({
         },
         addUpcomingMovies: (state, action) => {
             state.upcomingMovies = action.payload;
+<<<<<<< HEAD
         }
     }
 });
 export const {addNowPlayingMovies, addTrailerVideo, addTopRatedMovies, addUpcomingMovies } = movieSlice.actions;
+=======
+        },
+        addMovieSuggestions: (state, action) => {
+            state.movieSuggestion = action.payload;
+        }
+    }
+});
+export const {addNowPlayingMovies, addTrailerVideo, addTopRatedMovies, addUpcomingMovies, addMovieSuggestions } = movieSlice.actions;
+>>>>>>> 2ee4fc4 (Final Added Movie Recommendation Model)
 export default movieSlice.reducer;

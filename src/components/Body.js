@@ -24,4 +24,8 @@ const Body = () => {
        </div>
     )
 }
+<<<<<<< HEAD
 export default Body
+=======
+export default Body;
+>>>>>>> 2ee4fc4 (Final Added Movie Recommendation Model)
